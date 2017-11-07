@@ -31,9 +31,9 @@ mod 'shoekstra/owncloud',
 exclusion 'ckhall-remi'
 exclusion 'stahnma-epel'
 
-mod 'puppetlabs-apache',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
-  :ref => 'master'
+#mod 'puppetlabs-apache',
+#  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
+#  :ref => 'master'
 
 mod 'puppetlabs-apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
