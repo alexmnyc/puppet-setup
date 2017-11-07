@@ -31,22 +31,6 @@ mod 'shoekstra/owncloud',
 exclusion 'ckhall-remi'
 exclusion 'stahnma-epel'
 
-#mod 'puppetlabs-apache',
-#  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
-#  :ref => 'master'
-
-mod 'puppetlabs-apt',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
-  :ref => 'master'
-
-mod 'puppetlabs-mysql' ,
-  :git => 'https://github.com/puppetlabs/puppetlabs-mysql.git',
-  :ref => 'master'
-
-mod 'puppetlabs-concat',
-  :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
-  :ref => 'master'
-
 ## alternative to nanliu-staging
 exclusion 'nanliu-staging'
 mod 'puppet-staging',
